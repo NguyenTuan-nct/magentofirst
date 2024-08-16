@@ -1,0 +1,29 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1723781840;s:6:"expire";i:1723785440;s:4:"tags";s:46:"f73_BLOCK_HTML,f73_CAT_P_20,f73_CAT_P,f73_MAGE";}
+
+            <div class="field configurable required">
+            <label class="label" for="attribute93">
+                <span>Color</span>
+            </label>
+            <div class="control">
+                <select name="super_attribute[93]"
+                        data-selector="super_attribute[93]"
+                        data-validate="{required:true}"
+                        id="attribute93"
+                        class="super-attribute-select">
+                    <option value="">Choose an Option...</option>
+                </select>
+            </div>
+        </div>
+        <script type="text/x-magento-init">
+        {
+            "#product_addtocart_form": {
+                "configurable": {
+                    "spConfig": {"attributes":{"93":{"id":"93","code":"color","label":"Color","options":[{"id":"8","label":"Gold","products":["18"]},{"id":"10","label":"Purple","products":["19"]}],"position":"0"}},"template":"\u20ab<%- data.price %>","currencyFormat":"\u20ab%s","optionPrices":{"18":{"baseOldPrice":{"amount":29980000},"oldPrice":{"amount":29980000},"basePrice":{"amount":25400000},"finalPrice":{"amount":25400000},"tierPrices":[],"msrpPrice":{"amount":0}},"19":{"baseOldPrice":{"amount":29890000},"oldPrice":{"amount":29890000},"basePrice":{"amount":29890000},"finalPrice":{"amount":29890000},"tierPrices":[],"msrpPrice":{"amount":0}}},"priceFormat":{"pattern":"\u20ab%s","precision":0,"requiredPrecision":0,"decimalSymbol":".","groupSymbol":",","groupLength":3,"integerRequired":true},"prices":{"baseOldPrice":{"amount":29890000},"oldPrice":{"amount":29890000},"basePrice":{"amount":29890000},"finalPrice":{"amount":29890000}},"productId":"20","chooseText":"Choose an Option...","images":{"18":[{"thumb":"http:\/\/192.168.131.132\/media\/catalog\/product\/cache\/218cd665f4809dddfeac017b5bbe7259\/7\/3\/7391762-5_xxl_1_1.jpg","img":"http:\/\/192.168.131.132\/media\/catalog\/product\/cache\/c3553e919678f8e74b0bad91bb18d07b\/7\/3\/7391762-5_xxl_1_1.jpg","full":"http:\/\/192.168.131.132\/media\/catalog\/product\/cache\/2c881786b13c99b885cd8ff1b6d97e57\/7\/3\/7391762-5_xxl_1_1.jpg","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}],"19":[{"thumb":"http:\/\/192.168.131.132\/media\/catalog\/product\/cache\/218cd665f4809dddfeac017b5bbe7259\/s\/c\/screenshot_2024-08-15_182116_1.png","img":"http:\/\/192.168.131.132\/media\/catalog\/product\/cache\/c3553e919678f8e74b0bad91bb18d07b\/s\/c\/screenshot_2024-08-15_182116_1.png","full":"http:\/\/192.168.131.132\/media\/catalog\/product\/cache\/2c881786b13c99b885cd8ff1b6d97e57\/s\/c\/screenshot_2024-08-15_182116_1.png","caption":null,"position":"1","isMain":true,"type":"image","videoUrl":null}]},"index":{"18":{"93":"8"},"19":{"93":"10"}},"salable":[],"canDisplayShowOutOfStockStatus":false,"channel":"website","salesChannelCode":"base","sku":{"18":"Samsung-Galaxy-S24-Ultra-Gold","19":"Samsung-Galaxy-S24-Ultra-Purple"}},
+                    "gallerySwitchStrategy": "prepend"
+                }
+            },
+            "*" : {
+                "Magento_ConfigurableProduct/js/catalog-add-to-cart": {}
+            }
+        }
+    </script>

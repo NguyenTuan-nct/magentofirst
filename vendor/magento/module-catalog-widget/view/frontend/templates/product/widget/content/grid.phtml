@@ -1,0 +1,94 @@
+<?php
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+
+use Magento\Catalog\Block\Product\ReviewRendererInterface;
+use Magento\Catalog\Helper\Product\Compare;
+use Magento\CatalogWidget\Block\Product\ProductsList;
+use Magento\Framework\App\Action\Action;
+use Magento\Framework\Escaper;
+use Magento\Wishlist\Helper\Data;
+
+/** @var Escaper $escaper */
+/** @var ProductsList $block */
+
+// phpcs:disable Generic.Files.LineLength.TooLong
+// phpcs:disable Magento2.Templates.ThisInTemplate.FoundHelper
+// phpcs:disable Magento2.Templates.ThisInTemplate.FoundThis
+?>
+<?php if ($exist = ($block->getProductCollection() && $block->getProductCollection()->count())): ?>
+    <?php
+    $type = 'widget-product-grid';
+    $mode = 'grid';
+    $image = 'new_products_content_widget_grid';
+    $items = $block->getProductCollection()->getItems();
+    $showWishlist = true;
+    $showCompare = true;
+    $showCart = true;
+    $templateType = ReviewRendererInterface::SHORT_VIEW;
+    $description = false;
+    ?>
+    <div style="background-color: #0da8bc; color: #fff; text-align: center; padding: 20px 0; font-family: Arial, sans-serif;">
+        <h2 style="font-size: 36px; margin: 0; font-weight: bold; text-transform: uppercase; position: relative;">
+            Săn Sale Chớp Nhoáng 11h-12h
+            <span style="position: absolute; top: 0; right: 0; background-color: #ff6600; padding: 5px 15px; border-radius: 5px; font-size: 18px;">
+                Bắt đầu sau: 
+                <span id="countdown" style="font-weight: bold;">01:44:50</span>
+            </span>
+        </h2>
+    </div>
+
+    <div class="products-grid" style="display: flex; justify-content: space-around; padding: 20px 0; background-color: #fff;">
+        <?php $iterator = 1; ?>
+        <?php foreach ($items as $_item): ?>
+            <div class="product-item" style="width: 18%; text-align: center; position: relative;">
+                <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
+                    100/100 Suất
+                </div>
+                <br>
+                <br>
+                <br>
+                <a href="<?= $escaper->escapeUrl($block->getProductUrl($_item)) ?>" class="product-item-photo">
+                    <?= $block->getImage($_item, $image)->toHtml() ?>
+                </a>
+                <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;"><?= $escaper->escapeHtml($_item->getName()) ?></h3>
+                <p style="color: #d0021b; font-size: 20px; margin: 0;"><?= $escaper->escapeHtml($_item->getFinalPrice()) ?> đ</p>
+                <p style="color: #999; text-decoration: line-through; margin-top: 5px;"><?= $escaper->escapeHtml($_item->getPrice()) ?> đ</p>
+            </div>
+        <?php endforeach ?>
+    </div>
+
+    <div style="text-align: center; padding: 20px 0;">
+        <a href="#" style="display: inline-block; background-color: #d0021b; color: #fff; padding: 15px 30px; font-size: 20px; border-radius: 30px; text-transform: uppercase; text-decoration: none; font-weight: bold;">
+            Xem tất cả
+        </a>
+    </div>
+<?php endif;?>
+
+<script>
+    // Countdown timer
+    function startCountdown(duration, display) {
+        var timer = duration, minutes, seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = "01:" + minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = duration;
+            }
+        }, 1000);
+    }
+
+    window.onload = function () {
+        var countdownTime = 60 * 45, // 45 minutes
+            display = document.querySelector('#countdown');
+        startCountdown(countdownTime, display);
+    };
+</script>

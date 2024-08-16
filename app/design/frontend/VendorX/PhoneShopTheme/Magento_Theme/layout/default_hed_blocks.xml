@@ -1,0 +1,13 @@
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left" xsi:noNamespaceSchemaLocation="
+urn: magento: framework: View/Layout/etc/page_configuration.xsd">
+    <head>
+        <!-- local resources -->
+        <css src="style.css"/>
+        <script src="Magento_Catalog::js/myjs.js" />
+        <script src="js/myjs.js" />
+        <!-- external resources -->
+        <css src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" src_type="url" />
+        <link rel="stylesheet" type="text/css" src="https://fonts.googleapis.com/css?family=Lato" src_type="url" />
+    </head>
+</page>
