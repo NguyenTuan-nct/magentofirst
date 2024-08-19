@@ -30,6 +30,7 @@ use Magento\Wishlist\Helper\Data;
     $templateType = ReviewRendererInterface::SHORT_VIEW;
     $description = false;
     ?>
+    <!-- Phần Header -->
     <div style="background-color: #0da8bc; color: #fff; text-align: center; padding: 20px 0; font-family: Arial, sans-serif;">
         <h2 style="font-size: 36px; margin: 0; font-weight: bold; text-transform: uppercase; position: relative;">
             Săn Sale Chớp Nhoáng 11h-12h
@@ -40,35 +41,58 @@ use Magento\Wishlist\Helper\Data;
         </h2>
     </div>
 
-    <div class="products-grid" style="display: flex; justify-content: space-around; padding: 20px 0; background-color: #fff;">
-        <?php $iterator = 1; ?>
-        <?php foreach ($items as $_item): ?>
-            <div class="product-item" style="width: 18%; text-align: center; position: relative;">
-                <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
-                    100/100 Suất
-                </div>
-                <br>
-                <br>
-                <br>
-                <a href="<?= $escaper->escapeUrl($block->getProductUrl($_item)) ?>" class="product-item-photo">
-                    <?= $block->getImage($_item, $image)->toHtml() ?>
-                </a>
-                <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;"><?= $escaper->escapeHtml($_item->getName()) ?></h3>
-                <p style="color: #d0021b; font-size: 20px; margin: 0;"><?= $escaper->escapeHtml($_item->getFinalPrice()) ?> đ</p>
-                <p style="color: #999; text-decoration: line-through; margin-top: 5px;"><?= $escaper->escapeHtml($_item->getPrice()) ?> đ</p>
+    <!-- Phần danh sách sản phẩm -->
+    <div class="block widget block-products-list <?= /* @noEscape */ $mode ?>">
+        <?php if ($block->getTitle()): ?>
+            <div class="block-title">
+                <strong><?= $escaper->escapeHtml(__($block->getTitle())) ?></strong>
             </div>
-        <?php endforeach ?>
+        <?php endif ?>
+        <div class="block-content">
+            <?= /* @noEscape */ '<!-- ' . $image . '-->' ?>
+            <div class="products-<?= /* @noEscape */ $mode ?> <?= /* @noEscape */ $mode ?>" style="display: flex; justify-content: space-around; padding: 20px 0; background-color: #fff;">
+                <ol class="product-items <?= /* @noEscape */ $type ?>" style="display: flex; justify-content: space-around;">
+                    <?php $iterator = 1; ?>
+                    <?php foreach ($items as $_item): ?>
+                        <?= /* @noEscape */ ($iterator++ == 1) ? '<li class="product-item" style="width: 18%; text-align: center; position: relative;">' : '</li><li class="product-item" style="width: 18%; text-align: center; position: relative;">' ?>
+                        <div class="product-item-info">
+                            <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
+                                100/100 Suất
+                            </div>
+                            <br><br><br>
+                            <a href="<?= $escaper->escapeUrl($block->getProductUrl($_item)) ?>" class="product-item-photo">
+                                <?= $block->getImage($_item, $image)->toHtml() ?>
+                            </a>
+                            <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;"><?= $escaper->escapeHtml($_item->getName()) ?></h3>
+                            <div class="price-box">
+                                <span style="color: red; font-size: 20px; font-weight: bold;">
+                                    <?= $block->getProductPriceHtml($_item, $type) ?>
+                                </span>
+                            </div>
+                            <!-- Hiển thị giá gạch ngang nếu giá gốc khác giá cuối cùng -->
+                            <?php
+                            $regularPrice = $_item->getPriceInfo()->getPrice('regular_price')->getAmount()->getValue();
+                            $finalPrice = $_item->getFinalPrice();
+                            ?>
+                        </div>
+                    <?php endforeach ?>
+                </ol>
+            </div>
+            <?= $block->getPagerHtml() ?>
+        </div>
     </div>
 
+    <!-- Phần nút "Xem tất cả" -->
     <div style="text-align: center; padding: 20px 0;">
         <a href="#" style="display: inline-block; background-color: #d0021b; color: #fff; padding: 15px 30px; font-size: 20px; border-radius: 30px; text-transform: uppercase; text-decoration: none; font-weight: bold;">
             Xem tất cả
         </a>
     </div>
+
 <?php endif;?>
 
+<!-- Script đếm ngược -->
 <script>
-    // Countdown timer
     function startCountdown(duration, display) {
         var timer = duration, minutes, seconds;
         setInterval(function () {
