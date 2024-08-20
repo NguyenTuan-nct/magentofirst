@@ -340,7 +340,7 @@ class CheckProductPriceTest extends TestCase
      */
     private function assertRegularPrice(string $priceHtml, float $expectedPrice): void
     {
-        $regex = '<span class="price-label">Regular Price<\/span> {1,}<span.*data-price-amount="%s".*>\$%01.2f<\/span>';
+        $regex = '<span class="price-label">Giá Gốc<\/span> {1,}<span.*data-price-amount="%s".*>\$%01.2f<\/span>';
         $this->assertMatchesRegularExpression(
             sprintf("/{$regex}/", round($expectedPrice, 2), $expectedPrice),
             $priceHtml

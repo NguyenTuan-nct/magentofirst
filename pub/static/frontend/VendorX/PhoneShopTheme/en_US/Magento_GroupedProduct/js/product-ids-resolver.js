@@ -1,0 +1,1 @@
+/var/www/html/magento2/vendor/magento/module-grouped-product/view/frontend/web/js/product-ids-resolver.js

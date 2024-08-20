@@ -1,0 +1,1 @@
+/var/www/html/magento2/vendor/magento/module-grouped-product/view/adminhtml/web/js/grouped-product-grid.js

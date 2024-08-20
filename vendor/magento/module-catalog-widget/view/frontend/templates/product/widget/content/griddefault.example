@@ -35,7 +35,7 @@ use Magento\Wishlist\Helper\Data;
     ?>
     <!--<div style="text-align: center; margin-top: 20px;">
         <p id="topSanPham" style="font-size: 32px; font-weight: bold; color: #ff0000; text-align: center; margin-top: 20px; font-family: 'Arial', sans-serif;">
-            🌟 Top sản phẩm bán chạy 🌟
+            Săn Sale Chớp Nhoáng
         </p>
         <hr style="width: 50%; height: 4px; background-color: rgba(0, 0, 0, 0.5); border: none; margin: 10px auto; box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);">
         </div>
