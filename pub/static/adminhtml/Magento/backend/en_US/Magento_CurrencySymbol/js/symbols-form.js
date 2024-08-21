@@ -1,0 +1,1 @@
+/var/www/html/magento2/vendor/magento/module-currency-symbol/view/adminhtml/web/js/symbols-form.js

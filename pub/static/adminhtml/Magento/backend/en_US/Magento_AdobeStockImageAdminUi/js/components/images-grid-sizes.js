@@ -1,1 +1,0 @@
-/var/www/html/magento2/vendor/magento/module-adobe-stock-image-admin-ui/view/adminhtml/web/js/components/images-grid-sizes.js

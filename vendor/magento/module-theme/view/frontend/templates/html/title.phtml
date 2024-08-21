@@ -9,7 +9,9 @@
  */
 $cssClass = $block->getCssClass() ? ' ' . $block->getCssClass() : '';
 $titleHtml = '';
-if (trim($block->getPageHeading())) {
+$showTitle = false; // Đặt thành false để không hiển thị tiêu đề
+
+if ($showTitle && trim($block->getPageHeading())) {
     $titleHtml = '<span class="base" data-ui-id="page-title-wrapper" '
         . $block->getAddBaseAttribute()
         . '>'
@@ -29,4 +31,3 @@ if (trim($block->getPageHeading())) {
     <?= $block->getChildHtml() ?>
 </div>
 <?php endif; ?>
-

@@ -1,0 +1,1 @@
+/var/www/html/magento2/vendor/magento/module-payment-services-paypal/view/frontend/web/js/view/product/product-data-provider.js
