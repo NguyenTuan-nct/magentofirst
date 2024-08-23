@@ -1,0 +1,302 @@
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1724376988;s:6:"expire";i:1724463388;s:4:"tags";s:83:"f73_CAT_P,f73_BLOCK_HTML,f73_CAT_P_14,f73_CAT_P_10,f73_CAT_P_9,f73_CAT_P_4,f73_MAGE";}
+        <!-- Phần Header -->
+    <div style="background-color: #0da8bc; color: #fff; text-align: center; padding: 20px 0; font-family: Arial, sans-serif;">
+        <h2 style="font-size: 36px; margin: 0; font-weight: bold; text-transform: uppercase; position: relative;">
+            Săn Sale Chớp Nhoáng 11h-12h
+            <span style="position: absolute; top: 0; right: 0; background-color: #ff6600; padding: 5px 15px; border-radius: 5px; font-size: 18px;">
+                Bắt đầu sau: 
+                <span id="countdown" style="font-weight: bold;">01:44:50</span>
+            </span>
+        </h2>
+    </div>
+
+    <!-- Phần danh sách sản phẩm -->
+    <div class="block widget block-products-list grid">
+                <div class="block-content">
+            <!-- new_products_content_widget_grid-->            <div class="products-grid grid" style="display: flex; justify-content: space-around; padding: 20px 0; background-color: #fff;">
+                <ol class="product-items widget-product-grid" style="display: flex; justify-content: space-around;">
+                                                                <li class="product-item" style="width: 18%; text-align: center; position: relative;">                        <div class="product-item-info">
+                            <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
+                                100/100 Suất
+                            </div>
+                            <br><br><br>
+                            <a href="http://192.168.131.132/samsung-galaxy-watch-ultra-47mm-lte-sm-l705f-chinh-h-ng.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-14">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://192.168.131.132/media/catalog/product/cache/7fd7032b39f53fa6afb4f0ea625c4f63/s/a/samsung-galaxy-watch-ultra-47mm-lte_3_.jpg"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="Samsung&#x20;Galaxy&#x20;Watch&#x20;Ultra&#x20;47mm&#x20;LTE&#x20;SM-L705F&#x20;Ch&#xED;nh&#x20;h&#xE3;ng"/></span>
+</span>
+<style>.product-image-container-14 {
+    width: 240px;
+    height: auto;
+    aspect-ratio: 240 / 300;
+}
+.product-image-container-14 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-14 span.product-image-wrapper {
+        padding-bottom: 125%;
+    }
+}</style>                            </a>
+                            <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;">Samsung Galaxy Watch Ultra 47mm LTE SM-L705F Chính hãng</h3>
+                            <div class="price-box">
+                                <span style="color: red; font-size: 20px; font-weight: bold;">
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="14" data-price-box="product-id-14">    <span class="normal-price">
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="old-price-14-widget-product-grid"                data-price-amount="16990000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$16,990,000.00</span></span>
+        </span></span>
+
+
+</div>                                </span>
+                            </div>
+                            <!-- Hiển thị giá gạch ngang nếu giá gốc khác giá cuối cùng -->
+                                                    </div>
+                                            </li><li class="product-item" style="width: 18%; text-align: center; position: relative;">                        <div class="product-item-info">
+                            <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
+                                100/100 Suất
+                            </div>
+                            <br><br><br>
+                            <a href="http://192.168.131.132/laptop-asus-vivobook-x1504za-nj1039w-i7-1255u-16gb-512gb.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-10">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://192.168.131.132/media/catalog/product/cache/7fd7032b39f53fa6afb4f0ea625c4f63/a/s/asus_vivobook_x1504za_nj1039w_7459424b00.png"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="Laptop&#x20;Asus&#x20;Vivobook&#x20;X1504ZA-NJ1039W&#x20;i7-1255U&#x2F;16GB&#x2F;512GB"/></span>
+</span>
+<style>.product-image-container-10 {
+    width: 240px;
+    height: auto;
+    aspect-ratio: 240 / 300;
+}
+.product-image-container-10 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-10 span.product-image-wrapper {
+        padding-bottom: 125%;
+    }
+}</style>                            </a>
+                            <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;">Laptop Asus Vivobook X1504ZA-NJ1039W i7-1255U/16GB/512GB</h3>
+                            <div class="price-box">
+                                <span style="color: red; font-size: 20px; font-weight: bold;">
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="10" data-price-box="product-id-10">
+    
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+        <span  id="old-price-10-widget-product-grid"                data-price-amount="18600000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$18,600,000.00</span></span>
+        </span>
+</div>                                </span>
+                            </div>
+                            <!-- Hiển thị giá gạch ngang nếu giá gốc khác giá cuối cùng -->
+                                                    </div>
+                                            </li><li class="product-item" style="width: 18%; text-align: center; position: relative;">                        <div class="product-item-info">
+                            <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
+                                100/100 Suất
+                            </div>
+                            <br><br><br>
+                            <a href="http://192.168.131.132/laptop-lenovo-gaming-legion-slim-5-16ahp9-r7-8845hs-ai-16gb-512gb.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-9">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://192.168.131.132/media/catalog/product/cache/7fd7032b39f53fa6afb4f0ea625c4f63/l/e/lenovo_legion_slim_5_16ahp9_1_e0793dbae7.png"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="Laptop&#x20;Lenovo&#x20;Gaming&#x20;Legion&#x20;Slim&#x20;5&#x20;16AHP9&#x20;R7-8845HS&#x2F;AI&#x2F;16GB&#x2F;512GB"/></span>
+</span>
+<style>.product-image-container-9 {
+    width: 240px;
+    height: auto;
+    aspect-ratio: 240 / 300;
+}
+.product-image-container-9 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-9 span.product-image-wrapper {
+        padding-bottom: 125%;
+    }
+}</style>                            </a>
+                            <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;">Laptop Lenovo Gaming Legion Slim 5 16AHP9 R7-8845HS/AI/16GB/512GB</h3>
+                            <div class="price-box">
+                                <span style="color: red; font-size: 20px; font-weight: bold;">
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="9" data-price-box="product-id-9">
+    <span class="special-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Special Price</span>
+        <span  id="old-price-9-widget-product-grid"                data-price-amount="46200000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$46,200,000.00</span></span>
+        </span>    </span>
+    <span class="old-price">
+        
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">Regular Price</span>
+        <span  id="old-price-9-widget-product-grid"                data-price-amount="50000000"
+        data-price-type="oldPrice"
+        class="price-wrapper "
+    ><span class="price">$50,000,000.00</span></span>
+        </span>    </span>
+
+</div>                                </span>
+                            </div>
+                            <!-- Hiển thị giá gạch ngang nếu giá gốc khác giá cuối cùng -->
+                                                    </div>
+                                            </li><li class="product-item" style="width: 18%; text-align: center; position: relative;">                        <div class="product-item-info">
+                            <div class="sold-out" style="background-color: #fdd835; color: #000; position: absolute; top: 10px; right: 10px; padding: 5px 10px; font-size: 14px; font-weight: bold; border-radius: 3px;">
+                                100/100 Suất
+                            </div>
+                            <br><br><br>
+                            <a href="http://192.168.131.132/iphone-x.html" class="product-item-photo">
+                                <span class="product-image-container product-image-container-4">
+    <span class="product-image-wrapper">
+        <img class="product-image-photo"
+                        src="http://192.168.131.132/media/catalog/product/cache/7fd7032b39f53fa6afb4f0ea625c4f63/s/c/screenshot_2024-08-12_172355.png"
+            loading="lazy"
+            width="240"
+            height="300"
+            alt="iPhone&#x20;X"/></span>
+</span>
+<style>.product-image-container-4 {
+    width: 240px;
+    height: auto;
+    aspect-ratio: 240 / 300;
+}
+.product-image-container-4 span.product-image-wrapper {
+    height: 100%;
+    width: 100%;
+}
+@supports not (aspect-ratio: auto) { 
+    .product-image-container-4 span.product-image-wrapper {
+        padding-bottom: 125%;
+    }
+}</style>                            </a>
+                            <h3 style="font-size: 18px; margin: 10px 0; font-weight: bold;">iPhone X</h3>
+                            <div class="price-box">
+                                <span style="color: red; font-size: 20px; font-weight: bold;">
+                                    <div class="price-box price-final_price" data-role="priceBox" data-product-id="4" data-price-box="product-id-4">    <span class="normal-price">
+
+
+<span class="price-container price-final_price&#x20;tax&#x20;weee"
+        >
+            <span class="price-label">As low as</span>
+        <span  id="old-price-4-widget-product-grid"                data-price-amount="5600000"
+        data-price-type="finalPrice"
+        class="price-wrapper "
+    ><span class="price">$5,600,000.00</span></span>
+        </span></span>
+
+
+</div>                                </span>
+                            </div>
+                            <!-- Hiển thị giá gạch ngang nếu giá gốc khác giá cuối cùng -->
+                                                    </div>
+                                    </ol>
+            </div>
+            
+        <div class="pager">
+    
+                <p class="toolbar-amount">
+            <span class="toolbar-number">
+                            Items 6 to 9 of 9 total                        </span>
+        </p>
+        
+                <div class="pages">
+            <strong class="label pages-label" id="paging-label">Page</strong>
+            <ul class="items pages-items" aria-labelledby="paging-label">
+                            <li class="item pages-item-previous">
+                                        <a class="action&#x20; previous"
+                       href="http://192.168.131.132/"
+                       title="Previous">
+                        <span class="label">Page</span>
+                        <span>Previous</span>
+                    </a>
+                </li>
+            
+            
+            
+                                                <li class="item">
+                        <a href="http://192.168.131.132/" class="page">
+                            <span class="label">Page</span>
+                            <span>1</span>
+                        </a>
+                    </li>
+                                                                <li class="item current">
+                        <strong class="page">
+                            <span class="label">You&#039;re currently reading page</span>
+                            <span>2</span>
+                        </strong>
+                    </li>
+                            
+            
+            
+                        </ul>
+        </div>
+        
+    
+        </div>
+    
+        </div>
+    </div>
+
+    <!-- Phần nút "Xem tất cả"
+    <div style="text-align: center; padding: 20px 0;">
+        <a href="#" style="display: inline-block; background-color: #d0021b; color: #fff; padding: 15px 30px; font-size: 20px; border-radius: 30px; text-transform: uppercase; text-decoration: none; font-weight: bold;">
+            Xem tất cả
+        </a>
+    </div> -->
+
+
+<!-- Script đếm ngược -->
+<script>
+    function startCountdown(duration, display) {
+        var timer = duration, minutes, seconds;
+        setInterval(function () {
+            minutes = parseInt(timer / 60, 10);
+            seconds = parseInt(timer % 60, 10);
+
+            minutes = minutes < 10 ? "0" + minutes : minutes;
+            seconds = seconds < 10 ? "0" + seconds : seconds;
+
+            display.textContent = "01:" + minutes + ":" + seconds;
+
+            if (--timer < 0) {
+                timer = duration;
+            }
+        }, 1000);
+    }
+
+    window.onload = function () {
+        var countdownTime = 60 * 45, // 45 minutes
+            display = document.querySelector('#countdown');
+        startCountdown(countdownTime, display);
+    };
+</script>

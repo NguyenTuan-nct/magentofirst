@@ -21,7 +21,7 @@ return [
         'allow_parallel_generation' => false
     ],
     'config' => [
-        'async' => 0
+        'async' => 0 
     ],
     'queue' => [
         'consumers_wait_for_messages' => 1
