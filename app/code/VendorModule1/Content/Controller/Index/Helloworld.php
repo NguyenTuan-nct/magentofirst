@@ -1,5 +1,5 @@
 <?php
-namespace Magetop\Helloworld\Controller\Index;
+namespace VendorModule1\Content\Controller\Index;
 
 use Magento\Framework\App\Action\Action;
 use Magento\Framework\View\Result\PageFactory;

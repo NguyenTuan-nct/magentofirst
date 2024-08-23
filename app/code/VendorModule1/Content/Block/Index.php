@@ -1,5 +1,5 @@
 <?php
-namespace Magetop\Helloworld\Block;
+namespace VendorModule1\Content\Block;
 
 use Magento\Framework\View\Element\Template;
 use Magento\Widget\Block\BlockInterface;
