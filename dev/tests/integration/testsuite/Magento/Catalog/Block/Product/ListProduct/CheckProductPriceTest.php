@@ -281,7 +281,7 @@ class CheckProductPriceTest extends TestCase
     {
         $this->assertMatchesRegularExpression(
             sprintf(
-                '/<span class="price-label">As low as<\/span> {1,}<span.*data-price-amount="%s".*>\$%01.2f<\/span>/',
+                '/<span class="price-label">As low ass<\/span> {1,}<span.*data-price-amount="%s".*>\$%01.2f<\/span>/',
                 round($expectedPrice, 2),
                 $expectedPrice
             ),

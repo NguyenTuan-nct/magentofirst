@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * menu
+ *
+ * @copyright Copyright © 2020 MAGETOP. All rights reserved.
+ * @author    info@magetop.com
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+            <add id="VendorModule1_Content::menu_title" title="Magetop Module" module="VendorModule1_Content" sortOrder="20" resource="VendorModule1_Content::title_menu" />
+            <add id="VendorModule1_Content::manage_posts" title="Magetop Helloworld" module="VendorModule1_Content" sortOrder="1" parent="VendorModule1_Content::menu_title" action="hellomenu/posts/index" resource="VendorModule1_Content::manage_posts" />
+            <add id="VendorModule1_Content::module_config" title="Module Configuration" module="VendorModule1_Content" sortOrder="2" parent="VendorModule1_Content::menu_title" action="adminhtml/system_config/edit/section/helloworld" resource="VendorModule1_Content::configuration"/>
+    </menu>
+</config>
